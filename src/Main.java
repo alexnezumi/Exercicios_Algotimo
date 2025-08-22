@@ -82,7 +82,18 @@ public class Main {
 
         // exercicio - Peça ao usuário inserir seu ano de nascimento e imprima sua idade;
 
+        /*
+        Scanner grava = new Scanner(System.in);
+        int idade, ano;
+        System.out.println("Insira o ano de seu nascimento");
+        ano = grava.nextInt();
+        idade = 2025 - ano;
+        System.out.println("Você tem ou vai fazer " + idade + " anos");
+         */
 
+        // exercicio - Faça um programa que calcula a área de uma circunferência com precisão de 2 casas
+        //decimais.
 
+        double
     }
 }
