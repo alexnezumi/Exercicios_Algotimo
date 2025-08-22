@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -55,11 +56,13 @@ public class Main {
      /*
         Scanner grava = new Scanner(System.in);
 
+         double kmh,ms;
+
         System.out.println("Digite a velocidade em km/h: ");
 
-        double kmh = grava.nextDouble();
+        kmh = grava.nextDouble();
 
-        double ms = kmh / 3.6;
+        ms = kmh / 3.6;
 
         System.out.printf("Velocidade em m/s: %.2f\n", ms);
 
@@ -91,9 +94,27 @@ public class Main {
         System.out.println("Você tem ou vai fazer " + idade + " anos");
          */
 
-        // exercicio - Faça um programa que calcula a área de uma circunferência com precisão de 2 casas
-        //decimais.
+        // exercicio - Faça um programa que calcula a área de uma circunferência com precisão de 2 casas decimais.
 
-        double
+        /*
+        Scanner grava = new Scanner(System.in);
+        double raio, area;
+
+        System.out.println("Insira o raio da circuferencia");
+        raio = grava.nextDouble();
+
+        raio = Math.pow(raio,raio); //Math.pow é usado pra fazer contas com numeros ao quadrado
+        area = Math.PI * raio;
+
+        DecimalFormat DF = new DecimalFormat("#.00");
+
+         System.out.println("A circuferancia é " + (DF.format(area)));
+        
+         */
+
+
+
+
+
     }
 }
