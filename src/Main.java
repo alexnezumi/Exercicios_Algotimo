@@ -15,6 +15,7 @@ public class Main {
        x = grava.nextInt();
         System.out.println("Você digitou " + x);
        */
+
         // exercicio - Faça um programa que leia um número real e o imprima;
 
        /*
@@ -113,7 +114,7 @@ public class Main {
         raio = Math.pow(raio,raio); //Math.pow é usado pra fazer contas com numeros ao quadrado
         area = Math.PI * raio;
 
-        DecimalFormat DF = new DecimalFormat("#.00");
+        DecimalFormat DF = new DecimalFormat("#0.00");
 
          System.out.println("A circuferancia é " + (DF.format(area)));
 
@@ -176,6 +177,7 @@ public class Main {
         // exercicio - Faça um programa que calcula a área de um triângulo retângulo a partir da entrada da
         //base e da altura.
 
+        /*
         Scanner grava = new Scanner(System.in);
         double base,alt,area;
 
@@ -188,6 +190,35 @@ public class Main {
         area = (base * alt)/2;
 
         System.out.println("A área do triângulo retânculo é " + area);
+        */
+
+        //exercicio - Sabendo que a distância entre as cidades de Rio de Janeiro e São Paulo é de 400km,
+        //elabore um programa que calcule a quantidade de dias que levaria para realizar esta
+        //viagem de bicicleta. O usuário digitará a velocidade média ao longo da viagem.
+
+        Scanner grava = new Scanner(System.in);
+
+        double vel,hora,dias;
+        int dist = 400;
+
+        System.out.println("A qual velocidade você vai? digite apenas os numeros");
+        vel = grava.nextDouble();
+
+        hora = dist/vel;
+        dias = hora/24;
+
+        DecimalFormat DF = new DecimalFormat("#0.0");
+
+        System.out.println("Você vai levar cerca de " + (DF.format(dias)) + " dias");
+
+
+
+
+
+
+
+
+
 
 
 
