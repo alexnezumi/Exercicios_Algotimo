@@ -9,14 +9,19 @@ public class Main {
         // exercicio - Faça um programa que leia um número inteiro e o imprima;
 
        /*
-       int x = 5;
-        System.out.println(x);
+       Scanner grava = new Scanner(System.in);
+       int x ;
+       System.out.println("Insira um número do tipo inteiro");
+       x = grava.nextInt();
+        System.out.println("Você digitou " + x);
        */
         // exercicio - Faça um programa que leia um número real e o imprima;
 
        /*
-        double x = 12.45;
-        System.out.println(x);
+        Scanner grava = new Scanner(System.in);
+        double x ;
+        System.out.println("Insira um número do tipo real");
+        System.out.println("Você digitou " + y);
        */
 
         // exercicio - Peça ao usuário para digitar três valores inteiros e imprima a soma deles;
@@ -115,12 +120,13 @@ public class Main {
        */
 
         //exercicio - Construa um algoritmo, em Java, em que o usuário digita as coordenadas X e Y de dois
-        //pontos do plano cartesiano e o programa retorna a distância entre eles.
+        // pontos do plano cartesiano e o programa retorna a distância entre eles.
+
+        /*
 
         Scanner grava = new Scanner(System.in);
         double x1, x2, y1, y2, d;
         double x,y,raiz;
-
 
         System.out.println("Insira o valor de x1  ");
         x1 = grava.nextDouble();
@@ -145,6 +151,51 @@ public class Main {
         raiz = Math.sqrt(d);
 
         System.out.println("A codernada dos pontos digitados é " + raiz);
+
+         */
+
+        //exercicio - O custo ao consumidor de um carro novo é a soma do custo de fabricação adicionando
+        //os impostos e a porcentagem de ganho do distribuidor. Supondo que a porcentagem do
+        //distribuidor seja 15%, os impostos sejam de 30%, escreva um programa que leia o custo
+        //de fabricação de um carro e retorna o custo ao consumidor.
+
+        /*
+        Scanner grava = new Scanner(System.in);
+        double cf,pd, imposto, valor ;
+        System.out.println("Insira o CF(Custo de fabricação)");
+        cf = grava.nextDouble();
+
+        pd = cf * 0.15;
+        imposto = cf * 0.30;
+
+        valor = cf + pd + imposto;
+
+        System.out.println("O consumidor paga no final é " + valor);
+        */
+
+        // exercicio - Faça um programa que calcula a área de um triângulo retângulo a partir da entrada da
+        //base e da altura.
+
+        Scanner grava = new Scanner(System.in);
+        double base,alt,area;
+
+        System.out.println("Insira o valor da base");
+        base = grava.nextDouble();
+
+        System.out.println("Insira a altura");
+        alt = grava.nextDouble();
+
+        area = (base * alt)/2;
+
+        System.out.println("A área do triângulo retânculo é " + area);
+
+
+
+
+
+
+
+
 
 
 
